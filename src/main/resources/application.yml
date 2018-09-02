@@ -1,5 +1,3 @@
-server:
- port: 9010
 
 management:
  security:
@@ -18,3 +16,10 @@ management:
 info:
  app:
   name: spring-cloud-base
+
+spring:
+  profiles:
+    active: dev
+
+
+
