@@ -6,7 +6,7 @@ management:
   shutdown:
    enabled: true #是否可通过endpoints关停应用服务
   web:
-    base-path: /monitor
+    base-path: /actuator
     exposure:
       include: '*'
  endpoint:
