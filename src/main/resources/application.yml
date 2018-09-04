@@ -19,7 +19,7 @@ info:
 
 spring:
   profiles:
-    active: dev
+    active: single
 
 
 
